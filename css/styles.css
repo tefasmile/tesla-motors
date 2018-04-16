@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.border-bottom{
+  border-bottom: 1px solid gray;
+}
+
+.body{
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100%;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-1, .btn-2{
+  background-color: rgba(0,0,0,0.5);
+  margin: 1.5em .3em;
+  padding: 1em;
+  font-size: 15px;
+}
+
+.conte{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.foot{
+  background-color: transparent;
+  position: relative;
+  top: 12.08em;
+}
+
+.image{
+    width: 95px;
+    height: 85px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: -.2em;
+}
+
+.menu > li{
+  margin: 0 1em;
+  text-transform: uppercase;
+}
+
+.gray{
+  background-color: #222;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  align-items: center;
+}
+
+.info2{
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.list>.fitem{
+  margin-left: 1em;
+}
+
+.formulario{
+  background: #ccc;
+  border-radius: 6px;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em;
+}
+
+.center{
+  text-align: center;
+  color: gray;
+  border-bottom: slategrey;
+}
+
+.input{
+    align-items: center;
+    border-radius: 3px;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.285em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-left: .75em;
+    padding-right: .75em;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    color: #363636;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,.1);
+    width: 100%;
+}
+
+.send{
+    color: #fff;
+    background-color: #c00;
+    padding: 0 40px 0 40px;
+    font-size: 0.9em;
+    font-weight: 500;
+    width: 100%;
+    height: 40px;
+    line-height: 36px;
+    display: inline-block;
+    margin: 1em 0;
+}
+

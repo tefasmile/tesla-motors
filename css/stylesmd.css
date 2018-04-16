@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+iframe{
+    border: 6px solid rgb(255, 207, 50);
+}
+
+a:hover{
+    border-bottom: 1px solid red;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.body{
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-buy{
+    background-color: rgb(241, 77, 77);
+    border-radius: 6px;
+    padding: 1em;
+    width: 125px;
+    margin: auto;
+}
+
+.btn-buy:hover {
+    background-color: red;
+    box-shadow: 2px 2px #222;
+}
+
+.center{
+    text-align: center;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+}
+
+.border-bottom{
+    border-bottom: 2px thin gray;
+}
+
+.btn-1, .btn-2{
+  background-color: rgba(0,0,0,0.5);
+  margin: 1.5em .3em;
+  padding: 1em;
+  font-size: 15px;
+}
+
+.conte{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.foot{
+  background-color: transparent;
+  position: relative;
+  top: 12.08em;
+}
+
+.image{
+    width: 95px;
+    height: 85px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: -.2em;
+}
+
+.menu > li{
+  margin: 0 1em;
+  text-transform: uppercase;
+}
+
+.headerm{
+  display: flex;
+  justify-content: space-around;
+  background-color: #222;
+  align-items: center;
+}
+
+.info2{
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.list>.fitem{
+  margin-left: 1em;
+}
+
+.model{
+    background-image: url("../img/models.jpg");
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
+    /*height: 54.37em;*/
+}
+
+.sub-menu{
+    display: flex;
+    list-style: none;
+}
+
+.section-hero{
+    padding-top: 0;
+}
+
+.title-model{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgb(150, 147, 147);
+}
+
+.contemodel{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: auto;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modo-a{
+    margin-left: 1em;
+    padding: 0 1em;
+}
+
+.imagefeature{
+    width: 470px;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: auto;
+}
+
+.videotitle{
+    text-align: center;
+    text-shadow: 2px 2px 5px gold;
+}
+
+.contevideo{
+    text-align: center;
+}
+
+.foot{
+    background: #222;
+    padding: 1em;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.list>.fitem{
+  margin-left: 1em;
+}
+
+/****estilos modelx*****/
+.contechair{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.chair{
+    background: blue;
+    width: 350px;
+    height: 250px;
+    margin-left: 1em;
+}
+
+.one{
+    background-image: url("../img/ch2.jpg");
+}
+
+.two{
+    background-image: url("../img/ch3.jpg");
+}
+
+.three{
+    background-image: url("../img/asientos.jpg");
+    width: 350px;
+    height: 250px;
+}
+
